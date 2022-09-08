@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="226dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="83dp"
+        android:background="@drawable/img"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/notificatio"
+        android:layout_width="225dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="375dp"
+        android:gravity="top"
+        android:text="Notification"
+        android:textAppearance="@style/notificatio"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:layout_width="308dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="50dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non venenatis ex, at venenatis neque. Vivamus semper erat et augue pharetra, id accumsan felis rhoncus. Suspendisse"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/pushnoti"
+        android:layout_width="194dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/btn_push"
+
+        android:text="PUSH"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
